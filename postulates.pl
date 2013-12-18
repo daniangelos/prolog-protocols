@@ -1,4 +1,4 @@
-% ** Formalização de Protocolos de Segurança **
+% ** Formalizaï¿½ï¿½o de Protocolos de Seguranï¿½a **
 
 :- include('otway-rees.pl').
 :- include('needham-schroeder.pl').
@@ -77,11 +77,11 @@ believes(P,isFresh((X,Y))) :- believes(P,isFresh(X)).
 
 %reflection_propertys
 	%shared keys
-believes(P,shareKey(Rlinha,R,K)) :- believes(P,shareKey(R,Rlinha,K)).
-believes(P,believes(Q,shareKey(Rlinha,R,K))) :- believes(P,believes(Q,shareKey(R,Rlinha,K))).
+believes(P,shareKey(Hlinha,R,K)) :- believes(P,shareKey(R,Hlinha,K)).
+believes(P,believes(Q,shareKey(Hlinha,R,K))) :- believes(P,believes(Q,shareKey(R,Hlinha,K))).
 	%shared secrets
-believes(P,shareSecret(Rlinha,R,X)) :- believes(P,shareSecret(R,Rlinha,K)).
-believes(P,believes(Q,shareSecret(Rlinha,R,X))) :- believes(P,believes(Q,shareSecret(R,Rlinha,X))).
+believes(P,shareSecret(Hlinha,R,X)) :- believes(P,shareSecret(R,Hlinha,K)).
+believes(P,believes(Q,shareSecret(Hlinha,R,X))) :- believes(P,believes(Q,shareSecret(R,Hlinha,X))).
 
 
 %delegation statement
