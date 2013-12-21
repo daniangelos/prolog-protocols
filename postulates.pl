@@ -1,8 +1,5 @@
 % ** Formalização de Protocolos de Segurança **
 
-:- include('otway-rees.pl').
-:- include('needham-schroeder.pl').
-
 % P,Q and R are principals
 % X e Y are statements
 % K is a key

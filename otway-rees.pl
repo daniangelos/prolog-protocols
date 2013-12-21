@@ -1,5 +1,7 @@
 % ** The Otway-Rees Protocol** 
 
+:- include('postulates.pl').
+
 %Mensagem:
 message(a,b,encryptedKey(nc,kas)).
 message(a,b,encryptedKey(na,kas)).
