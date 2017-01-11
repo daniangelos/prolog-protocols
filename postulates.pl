@@ -1,5 +1,4 @@
 % ** Formalização de Protocolos de Segurança **
-% oi
 
 % P,Q and R are principals
 % X e Y are statements
