@@ -1,0 +1,2 @@
+linda(dani).
+goxtoso(thiago).
